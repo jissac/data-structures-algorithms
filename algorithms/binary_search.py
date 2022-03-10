@@ -6,7 +6,7 @@
 from __future__ import annotations
 
 
-def binary_search(items: list[int], value: int) -> int | None:
+def binary_search(items: [int], value: int) -> int | None:
     # find upper, middle, and lower boundaries
     left, right = 0, len(items) - 1
 
@@ -23,7 +23,7 @@ def binary_search(items: list[int], value: int) -> int | None:
     return None
 
 
-def bs1(items: list[int], value: [int]) -> int:
+def bs1(items: [int], value: int) -> int:
     left = 0
     right = len(items) - 1
 
